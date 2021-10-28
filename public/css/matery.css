@@ -241,7 +241,6 @@ mark {
 }
 
 .bg-color {
-    /*background-image: linear-gradient(to right, #4d7aa7 0%, #4d7aa7 100%);*/
     background-image: linear-gradient(to right, #4d7aa7 0%, #424a8d 100%);
 }
 
@@ -882,9 +881,9 @@ article a {
 }
 
 article a:hover {
-    font-weight: bold;
-    color: #42b983;
-    text-decoration: underline;
+    /*font-weight: bold;*/
+    /*color: #42b983;*/
+    /*text-decoration: underline;*/
 }
 
 .articles .row {
@@ -2149,4 +2148,7 @@ footer .copy-right {
 .card .card-image .card-title{
     display: block;
     position: relative;
+}
+.card .card-image img{
+    display: none;
 }
