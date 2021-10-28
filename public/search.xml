@@ -5,10 +5,10 @@
     
     <entry>
       <title>Hexo + github 搭建博客</title>
-      <link href="//article/first-article20211028.html"/>
-      <url>//article/first-article20211028.html</url>
+      <link href="//article/202110/hexo28.html"/>
+      <url>//article/202110/hexo28.html</url>
       
-        <content type="html"><![CDATA[<p>第一次使用Hexo + github 搭建博客<br>第一次使用Hexo + github 搭建博客<br>第一次使用Hexo + github 搭建博客<br>第一次使用Hexo + github 搭建博客<br>第一次使用Hexo + github 搭建博客<br>第一次使用Hexo + github 搭建博客</p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>hexo中文官网 :<a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p></blockquote><h2 id="一、准备"><a href="#一、准备" class="headerlink" title="一、准备"></a>一、准备</h2><ol><li>github 账号</li><li>node 环境</li></ol><h2 id="二、搭建"><a href="#二、搭建" class="headerlink" title="二、搭建"></a>二、搭建</h2><ol><li><p>登录github账号访问 <code>https://github.com/new</code>创建一个新的仓库 ,Repository name : <code>你的用户名.github.io</code></p></li><li><p>安装 hexo <code>npm install -g hexo</code> ,分别执行下面两条命令.然后访问<code>localhost:4000</code>即可看到一个初始的hexo博客网站</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">   hexo inithexo s   <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>选择一个好看的hexo主题</p><p>github 搜索 <code>hexo-theme</code> 选择一个好看的主题</p><p>个人觉得 <code>https://github.com/blinkfox/hexo-theme-matery</code> 这个主题比较好看</p></li><li><p>主题里都有安装文档,按照文档操作即可</p><p>​    执行 <code>hexo g</code>生成 静态页面</p></li><li><p>将 <code>public</code>目录下的文件上传至 创建好仓库的根目录访问 <code>你的用户名.github.io </code> 就大功告成了</p></li></ol><h2 id="三、撰写"><a href="#三、撰写" class="headerlink" title="三、撰写"></a>三、撰写</h2><p>   在目录 source/_posts 下新建一个 .md 文件</p><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span><span class="token font-matter yaml language-yaml">title: Hexo + github 搭建博客 // 文章标题date: 2021-10-28            // 发布日期categories: Hexo            // 分类keywords: hexo,github,免费,个人博客   // 文章关键词 利于 seotags:                               // 文章标签- hexo- github</span><span class="token punctuation">---</span></span>// 正文内容 就跟普通 markdown 写法一样啦<span class="token blockquote punctuation">&gt;</span> hexo中文官网 :https://hexo.io/zh-cn/<span class="token title important"><span class="token punctuation">#</span> 准备</span><span class="token list punctuation">1.</span> github 账号<span class="token list punctuation">2.</span> node 环境<span class="token title important"><span class="token punctuation">#</span> 开始搭建</span><span class="token list punctuation">1.</span> 登录github账号访问 <span class="token code-snippet code keyword">`https://github.com/new`</span>创建一个新的仓库 ,Repository name : <span class="token code-snippet code keyword">`你的用户名.github.io`</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
       
       
       <categories>
@@ -23,6 +23,33 @@
             <tag> hexo </tag>
             
             <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>优秀、实用的网站收录</title>
+      <link href="//article/202110/website28.html"/>
+      <url>//article/202110/website28.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这里收录着工作、学习、生活中遇到的一些优秀网站</p></blockquote><h2 id="CSS-相关"><a href="#CSS-相关" class="headerlink" title="CSS 相关"></a>CSS 相关</h2><h2 id="1-渐变色"><a href="#1-渐变色" class="headerlink" title="1. 渐变色"></a>1. 渐变色</h2><p>上百种好看的渐变色可供选择,并且支持css代码复制</p><blockquote><p>一个漂亮的多色渐变集合<br><a href="https://uigradients.com/">https://uigradients.com/</a></p></blockquote><h2 id="2-布局-组件"><a href="#2-布局-组件" class="headerlink" title="2. 布局 | 组件"></a>2. 布局 | 组件</h2><p>非常棒的css布局组件网站,能快速生成常用的css样式</p><blockquote><p>CSS 制作的流行布局和组件的集合.<br><a href="https://csslayout.io/">https://csslayout.io/</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 收藏 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 收藏 </tag>
+            
+            <tag> 实用 </tag>
             
         </tags>
       
