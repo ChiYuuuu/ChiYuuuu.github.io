@@ -38,6 +38,7 @@
                         </div>
                     </a>
                     <div class="card-content article-content">
+                        <a href="<%- url_for(post.path) %>">
                         <div class="summary block-with-text">
                             <% if (post.summary && post.summary.length > 0) { %>
                                 <%- post.summary %>
@@ -45,6 +46,7 @@
                                 <%- strip_html(post.content).substring(0, 120) %>
                             <% } %>
                         </div>
+                        </a>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i><%= date(post.date, config.date_format) %>
