@@ -5,17 +5,16 @@
 # Site
 title: ChiYu
 subtitle: #
-description: ''
-keywords:
+description: '池鱼的个人博客'
+keywords: hexo,个人博客,php,js,python,前端
 author: #
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://chiYuuuu.github.io/public/
-root: /public/
-permalink: :title/
+url: http://chiYuuuu.github.io
+permalink: /article/:title:year:month:day.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
