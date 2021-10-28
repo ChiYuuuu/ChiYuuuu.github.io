@@ -553,7 +553,7 @@ header .go-back i {
 
 }
 .post-cover {
-    height: 40vh !important;
+    height: 36vh !important;
 }
 
 .bg-cover:after {
@@ -897,7 +897,7 @@ article .card {
 }
 
 article .card-image {
-    background-color: #4b70a1;
+    background-color: #222;
     border-radius: 8px;
 }
 
