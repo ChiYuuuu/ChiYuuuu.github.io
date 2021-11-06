@@ -280,9 +280,9 @@ nav {
 }
 
 header .nav-transparent {
-    background-color: transparent !important;
-    background-image: none;
-    box-shadow: none;
+    /*background-color: transparent !important;*/
+    /*background-image: none;*/
+    /*box-shadow: none;*/
 }
 
 header nav .brand-span {
