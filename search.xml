@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>常用的JS技巧</title>
+      <link href="/article/202111/jscodeskill08.html"/>
+      <url>/article/202111/jscodeskill08.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h2><h3 id="1-if-else-判断"><a href="#1-if-else-判断" class="headerlink" title="1. if else 判断"></a>1. if else 判断</h3><h4 id="简写-if-else"><a href="#简写-if-else" class="headerlink" title="简写 if else"></a>简写 if else</h4><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 长</span><span class="token keyword">let</span> test<span class="token operator">:</span> boolean<span class="token punctuation">;</span><span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">&gt;</span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  test <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span><span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>  test <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token comment">// 短</span><span class="token keyword">let</span> test <span class="token operator">=</span> <span class="token punctuation">(</span>x <span class="token operator">&gt;</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token operator">?</span> <span class="token boolean">true</span> <span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">;</span><span class="token comment">// 也可以直接这样</span><span class="token keyword">let</span> test <span class="token operator">=</span> x <span class="token operator">&gt;</span> <span class="token number">10</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="多表达式多-if-判断"><a href="#多表达式多-if-判断" class="headerlink" title="多表达式多 if 判断"></a>多表达式多 if 判断</h4><p>在数组中存储多个值，并且可以使用数组include方法</p><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 长</span><span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">===</span> <span class="token string">'abc'</span> <span class="token operator">||</span> x <span class="token operator">===</span> <span class="token string">'def'</span> <span class="token operator">||</span> x <span class="token operator">===</span> <span class="token string">'ghi'</span> <span class="token operator">||</span> x <span class="token operator">===</span><span class="token string">'jkl'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">//logic</span><span class="token punctuation">}</span><span class="token comment">// 短</span><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'abc'</span><span class="token punctuation">,</span> <span class="token string">'def'</span><span class="token punctuation">,</span> <span class="token string">'ghi'</span><span class="token punctuation">,</span> <span class="token string">'jkl'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">includes</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  <span class="token comment">//logic</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><h3 id="1-amp-amp"><a href="#1-amp-amp" class="headerlink" title="1. &amp;&amp;"></a>1. &amp;&amp;</h3><p>如果仅在变量值为 true 的情况下才调用函数，则可以使用 &amp;&amp; 运算符。</p><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 长 </span><span class="token keyword">if</span> <span class="token punctuation">(</span>test1<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token function">callMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span> <span class="token comment">// 短 </span>test1 <span class="token operator">&amp;&amp;</span> <span class="token function">callMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> JS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> js </tag>
+            
+            <tag> 常用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>常用的JS代码片段</title>
       <link href="/article/202111/jscodesnippet06.html"/>
       <url>/article/202111/jscodesnippet06.html</url>
