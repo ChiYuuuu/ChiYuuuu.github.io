@@ -4,7 +4,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>Tag: 实用 [ ChiYu ]</title>
+    <title>Hexo + github 搭建博客 [ ChiYu ]</title>
 <!--    <script src="https://cdn.jsdelivr.net/gh/qqhwang/live2d-widget@latest/autoload.js"></script>-->
     <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
 
@@ -110,24 +110,84 @@
 
 
             
-<div id="tag">
-  <h1>实用</h1>
-  
-    <div class="tag-item">
-      <a href="/article/%E6%94%B6%E8%97%8F/20211028/website.html">
-        优秀、实用的网站收录
-      </a>
-      <time datetime="2021-10-27T16:00:00.000Z">
-        2021-10-28
-      </time>
+<link rel="stylesheet" href="/css/post/articledetail.css">
+
+
+<link rel="stylesheet" href="/css/post/matery.css">
+
+<div class="artilce-details-container">
+    <div class="artilce-details">
+
+
+            <article id="post">
+                <h1>Hexo + github 搭建博客</h1>
+                <blockquote>
+<p>hexo中文官网 :<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
+</blockquote>
+<h2 id="一、准备"><a href="#一、准备" class="headerlink" title="一、准备"></a>一、准备</h2><ol>
+<li>github 账号</li>
+<li>node 环境</li>
+</ol>
+<h2 id="二、搭建"><a href="#二、搭建" class="headerlink" title="二、搭建"></a>二、搭建</h2><ol>
+<li><p>登录github账号访问 <code>https://github.com/new</code>创建一个新的仓库 </p>
+<p>Repository name : <code>你的用户名.github.io</code></p>
+</li>
+<li><p>安装 hexo <code>npm install -g hexo</code> </p>
+</li>
+<li><p>先后执行下面两条命令.</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">   
+hexo init
+hexo s
+   <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li><p>访问<code>localhost:4000</code>即可看到一个初始的hexo博客网站</p>
+</li>
+<li><p>github 搜索 <code>hexo-theme</code> 选择一个好看的主题，我选择的是 <code>https://github.com/blinkfox/hexo-theme-matery</code></p>
+</li>
+<li><p>主题里都有安装文档,按照文档操作即可,执行 <code>hexo g</code>生成 静态页面</p>
+</li>
+<li><p>将 <code>public</code>目录下的文件上传至 创建好仓库的根目录访问 <code>你的用户名.github.io </code> 就大功告成了</p>
+</li>
+</ol>
+<h2 id="三、撰写"><a href="#三、撰写" class="headerlink" title="三、撰写"></a>三、撰写</h2><p>   在目录 source/_posts 下新建一个 .md 文件</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token font-matter yaml language-yaml">title: Hexo + github 搭建博客 // 文章标题
+date: 2021-10-28            // 发布日期
+categories: Hexo            // 分类
+keywords: hexo,github,免费,个人博客   // 文章关键词 利于 seo
+tags:                               // 文章标签
+- hexo
+- github</span>
+
+<span class="token punctuation">---</span></span>
+// 正文内容 就跟普通 markdown 写法一样啦
+<span class="token blockquote punctuation">></span> hexo中文官网 :https://hexo.io/zh-cn/
+
+<span class="token title important"><span class="token punctuation">#</span> 准备</span>
+
+<span class="token list punctuation">1.</span> github 账号
+<span class="token list punctuation">2.</span> node 环境
+
+<span class="token title important"><span class="token punctuation">#</span> 开始搭建</span>
+
+<span class="token list punctuation">1.</span> 登录github账号访问 <span class="token code-snippet code keyword">`https://github.com/new`</span>创建一个新的仓库 ,Repository name : <span class="token code-snippet code keyword">`你的用户名.github.io`</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+            </article>
+
+
+        <div class="aticle-catalogue toc-widget" id="toc">
+        </div>
+
     </div>
-  
-</div>
 
-<div id="paginator">
-  <span class="page-number current">1</span>
-</div>
+    <!--<div id="paginator">-->
+    <!--  -->
+    <!--</div>-->
+    <!-- 代码块功能依赖 -->
 
+</div>
 
 
             <!--            底部栏-->

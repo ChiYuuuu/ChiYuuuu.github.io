@@ -10,8 +10,7 @@ $(function () {
 
         if (!code_language) {
             return true;
-        }
-        ;
+        };
         var lang_name = code_language.replace("line-numbers", "").trim().replace("language-", "").trim();
 
         // 首字母大写
@@ -23,7 +22,6 @@ $(function () {
     var $notice = $('<div class="codecopy_notice"></div>')
     $('.code-area').prepend($copyIcon)
     $('.code-area').prepend($notice)
-
     // “复制成功”字出现
     function copy(text, ctx) {
         if (document.queryCommandSupported && document.queryCommandSupported('copy')) {
@@ -62,7 +60,6 @@ $(function () {
             $(ctx).prev('.codecopy_notice').text("浏览器不支持复制")
         }
     }
-
     // 复制
     $('.code-area .fa-copy').on('click', function () {
         var selection = window.getSelection()
@@ -75,12 +72,12 @@ $(function () {
         selection.removeAllRanges()
     })
     console.log(tocbot)
-    tocbot.init({
-        tocSelector: '#toc',
-        contentSelector: '#post',
-        headingsOffset: 0,
-        collapseDepth: 5,
-        headingSelector: 'h2, h3, h4,h5'
-    });
+    // tocbot.init({
+    //     tocSelector: '#toc',
+    //     contentSelector: '#post',
+    //     headingsOffset: -($(window).height() * 0.4 - 45),
+    //     collapseDepth: 0,
+    //     headingSelector: 'h2, h3, h4'
+    // });
 });
 
