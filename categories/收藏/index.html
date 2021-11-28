@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Category: 收藏 [ ChiYu ]</title>
-<!--    <script src="https://cdn.jsdelivr.net/gh/qqhwang/live2d-widget@latest/autoload.js"></script>-->
-    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+
+<!--    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>-->
 
     <link rel="stylesheet" href="/css/tocbot.css">
 
@@ -60,7 +60,7 @@
               no-action
         >
           <template v-slot:activator>
-            <v-list-item-title>笔记</v-list-item-title>
+            <v-list-item-title>分类</v-list-item-title>
           </template>
 
       
@@ -93,15 +93,15 @@
 
         </v-list-group>
 
-        <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon>mdi-filmstrip</v-icon>
-                  </v-list-item-icon>
+<!--        <v-list-item>-->
+<!--                  <v-list-item-icon>-->
+<!--                    <v-icon>mdi-filmstrip</v-icon>-->
+<!--                  </v-list-item-icon>-->
 
-                  <v-list-item-title>影视</v-list-item-title>
-                </v-list-item>
+<!--                  <v-list-item-title>影视</v-list-item-title>-->
+<!--        </v-list-item>-->
       </v-list>
-              </v-navigation-drawer>
+</v-navigation-drawer>
 
         <v-app-bar app  >
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
@@ -111,61 +111,60 @@
 
             
 
-  
+
 <link rel="stylesheet" href="/css/list.css">
 
 
-  <div class="artilce-list-container">
+<div class="artilce-list-container">
 
     <v-item-group>
-      <v-container>
-        <v-row>
+        <v-container>
+            <v-row>
+                
 
-        
+                <v-col
 
-            <v-col
+                            cols="12"
+                            md="4"
+                    >
+                        <v-card  href="/article/%E6%94%B6%E8%97%8F/20211028/website.html">
+                            <v-toolbar
+                                    color="green"
+                                    dark
+                                    dense
+                                    flat
+                            >
+                                <v-toolbar-title class="text-body-4 artile-title">
 
-                    cols="12"
-                    md="4"
-            >
-              <v-card  href="/article/%E6%94%B6%E8%97%8F/20211028/website.html">
-                <v-toolbar
-                        color="green"
-                        dark
-                        dense
-                        flat
-                >
-                  <v-toolbar-title class="text-body-4 artile-title">
-
-                    优秀、实用的网站收录
-
-
-                  </v-toolbar-title>
-                  
-
-                    
-                  <v-chip
-                          color="lime darken-4 article-folder"
-                          label
-
-                          text-color="white"
-                          small
-                  >
+                                    优秀、实用的网站收录
 
 
-                    <a target="_blank"  href="/categories/%E6%94%B6%E8%97%8F/" class="post-category">
-                      <v-icon left small>
-                        mdi-folder
-                      </v-icon>
-                      收藏
-                    </a>
-                    
-                    
+                                </v-toolbar-title>
+                                
 
-                  </v-chip>
-                </v-toolbar>
-                <v-card-text class="article-overview">
-                  
+                                    
+                                <v-chip
+                                        color="lime darken-4 article-folder"
+                                        label
+
+                                        text-color="white"
+                                        small
+                                >
+
+
+                                                <a target="_blank"  href="/categories/%E6%94%B6%E8%97%8F/" class="post-category">
+                                                    <v-icon left small>
+                                                        mdi-folder
+                                                    </v-icon>
+                                                    收藏
+                                                </a>
+                                            
+                                    
+
+                                </v-chip>
+                            </v-toolbar>
+                            <v-card-text class="article-overview">
+                                
  这里收录着工作、学习、生活中遇到的一些优秀网站
 
 一、系统装机1. 镜像极简系统
@@ -173,80 +172,84 @@
  https://www.sysmini.com/
 
 MSDN 
-提供 windows 官方镜像下载,推荐下载版本Windows 10 (Multiple
+提供 w
 
-                </v-card-text>
+                            </v-card-text>
 
-                <v-card-actions>
+                            <v-card-actions>
 
-                  <v-icon dense left>
-                    mdi-alarm
-                  </v-icon>
-                  2021-10-28
-                  <div class="tags">
-                    
-                      <div class="card-action article-tags">
-                        
-                          <a target="_blank"  href="/tags/%E6%94%B6%E8%97%8F/">
-                            <v-chip
-                                    class="ma-0"
-                                    color="blue-grey"
-                                    small
-                                    label
-                                    link
-                                    text-color="white"
+                                <v-icon dense left>
+                                    mdi-alarm
+                                </v-icon>
+                              2021-10-28
+                                <div class="tags">
+                                    
+                                        <div class="card-action article-tags">
+                                            
+                                                <a target="_blank"  href="/tags/%E6%94%B6%E8%97%8F/">
+                                                    <v-chip
+                                                            class="ma-0"
+                                                            color="blue-grey"
+                                                            small
+                                                            label
+                                                            link
+                                                            text-color="white"
 
-                            >
+                                                    >
 
-                              收藏
-                            </v-chip>
-                          </a>
-                        
-                          <a target="_blank"  href="/tags/%E5%AE%9E%E7%94%A8/">
-                            <v-chip
-                                    class="ma-0"
-                                    color="blue-grey"
-                                    small
-                                    label
-                                    link
-                                    text-color="white"
+                                                        收藏
+                                                    </v-chip>
+                                                </a>
+                                            
+                                                <a target="_blank"  href="/tags/%E5%AE%9E%E7%94%A8/">
+                                                    <v-chip
+                                                            class="ma-0"
+                                                            color="blue-grey"
+                                                            small
+                                                            label
+                                                            link
+                                                            text-color="white"
 
-                            >
+                                                    >
 
-                              实用
-                            </v-chip>
-                          </a>
-                        
-                      </div>
-                    
+                                                        实用
+                                                    </v-chip>
+                                                </a>
+                                            
+                                        </div>
+                                    
 
-                  </div>
-                </v-card-actions>
-              </v-card>
-            </v-col>
-          
+                                </div>
+                            </v-card-actions>
+                        </v-card>
+                    </v-col>
+                
 
-        </v-row>
-      </v-container>
+            </v-row>
+        </v-container>
     </v-item-group>
 
-  </div>
-  <div class="text-center artilce-pagination">
+
+</div>
+<div class="text-center artilce-pagination">
     <v-container>
-      <v-row justify="center">
-        <v-col cols="8">
-          <v-container class="max-width">
-            <v-pagination
-                    v-model="page"
-                    class="my-4"
-                    :length="15"
-                    :total-visible="7"
-            ></v-pagination>
-          </v-container>
-        </v-col>
-      </v-row>
+        <v-row justify="center">
+            <v-col cols="8">
+                <v-container class="max-width">
+                    <v-pagination
+                            v-model="page"
+                            class="my-4"
+                            :length="1"
+                            :total-visible="5"
+                            @next="jumpPage('')"
+                            @previous="jumpPage('')"
+                            @input="onPageChange"
+                    ></v-pagination>
+                </v-container>
+            </v-col>
+        </v-row>
     </v-container>
-  </div>
+</div>
 
 
 
@@ -266,7 +269,7 @@ MSDN
 
 
 </div>
-<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/js/tocbot.min.js"></script>
 <script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
 

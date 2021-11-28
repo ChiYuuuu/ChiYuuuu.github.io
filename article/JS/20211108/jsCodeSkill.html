@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <title>常用的JS技巧 [ ChiYu ]</title>
-<!--    <script src="https://cdn.jsdelivr.net/gh/qqhwang/live2d-widget@latest/autoload.js"></script>-->
-    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+
+<!--    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>-->
 
     <link rel="stylesheet" href="/css/tocbot.css">
 
@@ -60,7 +60,7 @@
               no-action
         >
           <template v-slot:activator>
-            <v-list-item-title>笔记</v-list-item-title>
+            <v-list-item-title>分类</v-list-item-title>
           </template>
 
       
@@ -93,15 +93,15 @@
 
         </v-list-group>
 
-        <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon>mdi-filmstrip</v-icon>
-                  </v-list-item-icon>
+<!--        <v-list-item>-->
+<!--                  <v-list-item-icon>-->
+<!--                    <v-icon>mdi-filmstrip</v-icon>-->
+<!--                  </v-list-item-icon>-->
 
-                  <v-list-item-title>影视</v-list-item-title>
-                </v-list-item>
+<!--                  <v-list-item-title>影视</v-list-item-title>-->
+<!--        </v-list-item>-->
       </v-list>
-              </v-navigation-drawer>
+</v-navigation-drawer>
 
         <v-app-bar app  >
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
@@ -119,9 +119,75 @@
     <div class="artilce-details">
 
 
-            <article id="post">
+        <article id="post">
+            
+                
+            <v-chip
+                    color="deep-purple article-folder"
+                    label
+                    text-color="white"
+                    small
+            >
+                        <a target="_blank" href="/categories/JS/" class="post-category">
+                            <v-icon left >
+                                mdi-folder
+                            </v-icon>
+                            JS
+                        </a>
+                    
+                
+            </v-chip>
+            <div class="aritcle-title-info">
                 <h1>常用的JS技巧</h1>
-                <h2 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h2><h3 id="1-if-else-判断"><a href="#1-if-else-判断" class="headerlink" title="1. if else 判断"></a>1. if else 判断</h3><h4 id="简写-if-else"><a href="#简写-if-else" class="headerlink" title="简写 if else"></a>简写 if else</h4><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 长</span>
+                <div class="artilce-details-msg-box">
+                    <div class="">
+                        <v-icon dense>
+                            mdi-alarm
+                        </v-icon>
+                        <span>2021-11-08</span>
+                    </div>
+                    <div class="tags">
+                        
+                            <div class="card-action article-tags">
+                                
+                                    <a target="_blank" href="/tags/js/">
+                                        <v-chip
+                                                class="ma-0"
+                                                color="blue-grey"
+                                                small
+                                                label
+                                                link
+                                                text-color="white"
+
+                                        >
+
+                                            js
+                                        </v-chip>
+                                    </a>
+                                
+                                    <a target="_blank" href="/tags/%E5%B8%B8%E7%94%A8/">
+                                        <v-chip
+                                                class="ma-0"
+                                                color="blue-grey"
+                                                small
+                                                label
+                                                link
+                                                text-color="white"
+
+                                        >
+
+                                            常用
+                                        </v-chip>
+                                    </a>
+                                
+                            </div>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+            <h2 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h2><h3 id="1-if-else-判断"><a href="#1-if-else-判断" class="headerlink" title="1. if else 判断"></a>1. if else 判断</h3><h4 id="简写-if-else"><a href="#简写-if-else" class="headerlink" title="简写 if else"></a>简写 if else</h4><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// 长</span>
 <span class="token keyword">let</span> test<span class="token operator">:</span> boolean<span class="token punctuation">;</span>
 <span class="token keyword">if</span> <span class="token punctuation">(</span>x <span class="token operator">></span> <span class="token number">100</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
   test <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
@@ -155,7 +221,7 @@ test1 <span class="token operator">&amp;&amp;</span> <span class="token function
 
 
 
-            </article>
+        </article>
 
 
         <div class="aticle-catalogue toc-widget" id="toc">
@@ -163,10 +229,6 @@ test1 <span class="token operator">&amp;&amp;</span> <span class="token function
 
     </div>
 
-    <!--<div id="paginator">-->
-    <!--  -->
-    <!--</div>-->
-    <!-- 代码块功能依赖 -->
 
 </div>
 
@@ -186,7 +248,7 @@ test1 <span class="token operator">&amp;&amp;</span> <span class="token function
 
 
 </div>
-<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/js/tocbot.min.js"></script>
 <script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
 

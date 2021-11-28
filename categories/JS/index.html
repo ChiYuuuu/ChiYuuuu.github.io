@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Category: JS [ ChiYu ]</title>
-<!--    <script src="https://cdn.jsdelivr.net/gh/qqhwang/live2d-widget@latest/autoload.js"></script>-->
-    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+
+<!--    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>-->
 
     <link rel="stylesheet" href="/css/tocbot.css">
 
@@ -60,7 +60,7 @@
               no-action
         >
           <template v-slot:activator>
-            <v-list-item-title>笔记</v-list-item-title>
+            <v-list-item-title>分类</v-list-item-title>
           </template>
 
       
@@ -93,15 +93,15 @@
 
         </v-list-group>
 
-        <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon>mdi-filmstrip</v-icon>
-                  </v-list-item-icon>
+<!--        <v-list-item>-->
+<!--                  <v-list-item-icon>-->
+<!--                    <v-icon>mdi-filmstrip</v-icon>-->
+<!--                  </v-list-item-icon>-->
 
-                  <v-list-item-title>影视</v-list-item-title>
-                </v-list-item>
+<!--                  <v-list-item-title>影视</v-list-item-title>-->
+<!--        </v-list-item>-->
       </v-list>
-              </v-navigation-drawer>
+</v-navigation-drawer>
 
         <v-app-bar app  >
             <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
@@ -111,264 +111,260 @@
 
             
 
-  
+
 <link rel="stylesheet" href="/css/list.css">
 
 
-  <div class="artilce-list-container">
+<div class="artilce-list-container">
 
     <v-item-group>
-      <v-container>
-        <v-row>
+        <v-container>
+            <v-row>
+                
 
-        
+                <v-col
 
-            <v-col
+                            cols="12"
+                            md="4"
+                    >
+                        <v-card  href="/article/JS/20211108/jsCodeSkill.html">
+                            <v-toolbar
+                                    color="green"
+                                    dark
+                                    dense
+                                    flat
+                            >
+                                <v-toolbar-title class="text-body-4 artile-title">
 
-                    cols="12"
-                    md="4"
-            >
-              <v-card  href="/article/JS/20211108/jsCodeSkill.html">
-                <v-toolbar
-                        color="green"
-                        dark
-                        dense
-                        flat
-                >
-                  <v-toolbar-title class="text-body-4 artile-title">
-
-                    常用的JS技巧
-
-
-                  </v-toolbar-title>
-                  
-
-                    
-                  <v-chip
-                          color="deep-purple article-folder"
-                          label
-
-                          text-color="white"
-                          small
-                  >
+                                    常用的JS技巧
 
 
-                    <a target="_blank"  href="/categories/JS/" class="post-category">
-                      <v-icon left small>
-                        mdi-folder
-                      </v-icon>
-                      JS
-                    </a>
-                    
-                    
+                                </v-toolbar-title>
+                                
 
-                  </v-chip>
-                </v-toolbar>
-                <v-card-text class="article-overview">
-                  判断1. if else 判断简写 if else// 长
+                                    
+                                <v-chip
+                                        color="deep-purple article-folder"
+                                        label
+
+                                        text-color="white"
+                                        small
+                                >
+
+
+                                                <a target="_blank"  href="/categories/JS/" class="post-category">
+                                                    <v-icon left small>
+                                                        mdi-folder
+                                                    </v-icon>
+                                                    JS
+                                                </a>
+                                            
+                                    
+
+                                </v-chip>
+                            </v-toolbar>
+                            <v-card-text class="article-overview">
+                                判断1. if else 判断简写 if else// 长
 let test: boolean;
 if (x > 100) &#123;
   test = true;
 &#125; else &#123;
   test = false;
-&#125;
-// 短
-let test = (x > 10) ? true : 
+&
 
-                </v-card-text>
+                            </v-card-text>
 
-                <v-card-actions>
+                            <v-card-actions>
 
-                  <v-icon dense left>
-                    mdi-alarm
-                  </v-icon>
-                  2021-11-08
-                  <div class="tags">
-                    
-                      <div class="card-action article-tags">
-                        
-                          <a target="_blank"  href="/tags/js/">
-                            <v-chip
-                                    class="ma-0"
-                                    color="blue-grey"
-                                    small
-                                    label
-                                    link
-                                    text-color="white"
+                                <v-icon dense left>
+                                    mdi-alarm
+                                </v-icon>
+                              2021-11-08
+                                <div class="tags">
+                                    
+                                        <div class="card-action article-tags">
+                                            
+                                                <a target="_blank"  href="/tags/js/">
+                                                    <v-chip
+                                                            class="ma-0"
+                                                            color="blue-grey"
+                                                            small
+                                                            label
+                                                            link
+                                                            text-color="white"
 
+                                                    >
+
+                                                        js
+                                                    </v-chip>
+                                                </a>
+                                            
+                                                <a target="_blank"  href="/tags/%E5%B8%B8%E7%94%A8/">
+                                                    <v-chip
+                                                            class="ma-0"
+                                                            color="blue-grey"
+                                                            small
+                                                            label
+                                                            link
+                                                            text-color="white"
+
+                                                    >
+
+                                                        常用
+                                                    </v-chip>
+                                                </a>
+                                            
+                                        </div>
+                                    
+
+                                </div>
+                            </v-card-actions>
+                        </v-card>
+                    </v-col>
+                
+
+                <v-col
+
+                            cols="12"
+                            md="4"
+                    >
+                        <v-card  href="/article/JS/20211106/JsCodeSnippet.html">
+                            <v-toolbar
+                                    color="green"
+                                    dark
+                                    dense
+                                    flat
                             >
+                                <v-toolbar-title class="text-body-4 artile-title">
 
-                              js
-                            </v-chip>
-                          </a>
-                        
-                          <a target="_blank"  href="/tags/%E5%B8%B8%E7%94%A8/">
-                            <v-chip
-                                    class="ma-0"
-                                    color="blue-grey"
-                                    small
-                                    label
-                                    link
-                                    text-color="white"
-
-                            >
-
-                              常用
-                            </v-chip>
-                          </a>
-                        
-                      </div>
-                    
-
-                  </div>
-                </v-card-actions>
-              </v-card>
-            </v-col>
-          
-
-            <v-col
-
-                    cols="12"
-                    md="4"
-            >
-              <v-card  href="/article/JS/20211106/JsCodeSnippet.html">
-                <v-toolbar
-                        color="green"
-                        dark
-                        dense
-                        flat
-                >
-                  <v-toolbar-title class="text-body-4 artile-title">
-
-                    常用的JS代码片段
+                                    常用的JS代码片段
 
 
-                  </v-toolbar-title>
-                  
+                                </v-toolbar-title>
+                                
 
-                    
-                  <v-chip
-                          color="deep-purple article-folder"
-                          label
+                                    
+                                <v-chip
+                                        color="deep-purple article-folder"
+                                        label
 
-                          text-color="white"
-                          small
-                  >
+                                        text-color="white"
+                                        small
+                                >
 
 
-                    <a target="_blank"  href="/categories/JS/" class="post-category">
-                      <v-icon left small>
-                        mdi-folder
-                      </v-icon>
-                      JS
-                    </a>
-                    
-                    
+                                                <a target="_blank"  href="/categories/JS/" class="post-category">
+                                                    <v-icon left small>
+                                                        mdi-folder
+                                                    </v-icon>
+                                                    JS
+                                                </a>
+                                            
+                                    
 
-                  </v-chip>
-                </v-toolbar>
-                <v-card-text class="article-overview">
-                  异步函数相关1. 发送短信验证码倒计时var timeo = 60;
+                                </v-chip>
+                            </v-toolbar>
+                            <v-card-text class="article-overview">
+                                异步函数相关1. 发送短信验证码倒计时var timeo = 60;
 var timeStop = setInterval(function()&#123;
     timeo--;
     if (timeo>0) &#123;
-        that.text('重新发送' + timeo +'s');
     
 
-                </v-card-text>
+                            </v-card-text>
 
-                <v-card-actions>
+                            <v-card-actions>
 
-                  <v-icon dense left>
-                    mdi-alarm
-                  </v-icon>
-                  2021-11-06
-                  <div class="tags">
-                    
-                      <div class="card-action article-tags">
-                        
-                          <a target="_blank"  href="/tags/js/">
-                            <v-chip
-                                    class="ma-0"
-                                    color="blue-grey"
-                                    small
-                                    label
-                                    link
-                                    text-color="white"
+                                <v-icon dense left>
+                                    mdi-alarm
+                                </v-icon>
+                              2021-11-06
+                                <div class="tags">
+                                    
+                                        <div class="card-action article-tags">
+                                            
+                                                <a target="_blank"  href="/tags/js/">
+                                                    <v-chip
+                                                            class="ma-0"
+                                                            color="blue-grey"
+                                                            small
+                                                            label
+                                                            link
+                                                            text-color="white"
 
+                                                    >
+
+                                                        js
+                                                    </v-chip>
+                                                </a>
+                                            
+                                                <a target="_blank"  href="/tags/%E5%B8%B8%E7%94%A8/">
+                                                    <v-chip
+                                                            class="ma-0"
+                                                            color="blue-grey"
+                                                            small
+                                                            label
+                                                            link
+                                                            text-color="white"
+
+                                                    >
+
+                                                        常用
+                                                    </v-chip>
+                                                </a>
+                                            
+                                        </div>
+                                    
+
+                                </div>
+                            </v-card-actions>
+                        </v-card>
+                    </v-col>
+                
+
+                <v-col
+
+                            cols="12"
+                            md="4"
+                    >
+                        <v-card  href="/article/JS/20211028/hexo.html">
+                            <v-toolbar
+                                    color="green"
+                                    dark
+                                    dense
+                                    flat
                             >
+                                <v-toolbar-title class="text-body-4 artile-title">
 
-                              js
-                            </v-chip>
-                          </a>
-                        
-                          <a target="_blank"  href="/tags/%E5%B8%B8%E7%94%A8/">
-                            <v-chip
-                                    class="ma-0"
-                                    color="blue-grey"
-                                    small
-                                    label
-                                    link
-                                    text-color="white"
-
-                            >
-
-                              常用
-                            </v-chip>
-                          </a>
-                        
-                      </div>
-                    
-
-                  </div>
-                </v-card-actions>
-              </v-card>
-            </v-col>
-          
-
-            <v-col
-
-                    cols="12"
-                    md="4"
-            >
-              <v-card  href="/article/JS/20211028/hexo.html">
-                <v-toolbar
-                        color="green"
-                        dark
-                        dense
-                        flat
-                >
-                  <v-toolbar-title class="text-body-4 artile-title">
-
-                    Hexo + github 搭建博客
+                                    Hexo + github 搭建博客
 
 
-                  </v-toolbar-title>
-                  
+                                </v-toolbar-title>
+                                
 
-                    
-                  <v-chip
-                          color="deep-purple article-folder"
-                          label
+                                    
+                                <v-chip
+                                        color="deep-purple article-folder"
+                                        label
 
-                          text-color="white"
-                          small
-                  >
+                                        text-color="white"
+                                        small
+                                >
 
 
-                    <a target="_blank"  href="/categories/JS/" class="post-category">
-                      <v-icon left small>
-                        mdi-folder
-                      </v-icon>
-                      JS
-                    </a>
-                    
-                    
+                                                <a target="_blank"  href="/categories/JS/" class="post-category">
+                                                    <v-icon left small>
+                                                        mdi-folder
+                                                    </v-icon>
+                                                    JS
+                                                </a>
+                                            
+                                    
 
-                  </v-chip>
-                </v-toolbar>
-                <v-card-text class="article-overview">
-                  
+                                </v-chip>
+                            </v-toolbar>
+                            <v-card-text class="article-overview">
+                                
 hexo中文官网 :https://hexo.io/zh-cn/
 
 一、准备
@@ -377,82 +373,84 @@ node 环境
 
 二、搭建
 登录github账号访问 https://github.com/new创建一个新的仓库 
-Repository name : 你的用户名.github.io
+Repository 
 
-安装 hexo npm inst
+                            </v-card-text>
 
-                </v-card-text>
+                            <v-card-actions>
 
-                <v-card-actions>
+                                <v-icon dense left>
+                                    mdi-alarm
+                                </v-icon>
+                              2021-10-28
+                                <div class="tags">
+                                    
+                                        <div class="card-action article-tags">
+                                            
+                                                <a target="_blank"  href="/tags/hexo/">
+                                                    <v-chip
+                                                            class="ma-0"
+                                                            color="blue-grey"
+                                                            small
+                                                            label
+                                                            link
+                                                            text-color="white"
 
-                  <v-icon dense left>
-                    mdi-alarm
-                  </v-icon>
-                  2021-10-28
-                  <div class="tags">
-                    
-                      <div class="card-action article-tags">
-                        
-                          <a target="_blank"  href="/tags/hexo/">
-                            <v-chip
-                                    class="ma-0"
-                                    color="blue-grey"
-                                    small
-                                    label
-                                    link
-                                    text-color="white"
+                                                    >
 
-                            >
+                                                        hexo
+                                                    </v-chip>
+                                                </a>
+                                            
+                                                <a target="_blank"  href="/tags/github/">
+                                                    <v-chip
+                                                            class="ma-0"
+                                                            color="blue-grey"
+                                                            small
+                                                            label
+                                                            link
+                                                            text-color="white"
 
-                              hexo
-                            </v-chip>
-                          </a>
-                        
-                          <a target="_blank"  href="/tags/github/">
-                            <v-chip
-                                    class="ma-0"
-                                    color="blue-grey"
-                                    small
-                                    label
-                                    link
-                                    text-color="white"
+                                                    >
 
-                            >
+                                                        github
+                                                    </v-chip>
+                                                </a>
+                                            
+                                        </div>
+                                    
 
-                              github
-                            </v-chip>
-                          </a>
-                        
-                      </div>
-                    
+                                </div>
+                            </v-card-actions>
+                        </v-card>
+                    </v-col>
+                
 
-                  </div>
-                </v-card-actions>
-              </v-card>
-            </v-col>
-          
-
-        </v-row>
-      </v-container>
+            </v-row>
+        </v-container>
     </v-item-group>
 
-  </div>
-  <div class="text-center artilce-pagination">
+
+</div>
+<div class="text-center artilce-pagination">
     <v-container>
-      <v-row justify="center">
-        <v-col cols="8">
-          <v-container class="max-width">
-            <v-pagination
-                    v-model="page"
-                    class="my-4"
-                    :length="15"
-                    :total-visible="7"
-            ></v-pagination>
-          </v-container>
-        </v-col>
-      </v-row>
+        <v-row justify="center">
+            <v-col cols="8">
+                <v-container class="max-width">
+                    <v-pagination
+                            v-model="page"
+                            class="my-4"
+                            :length="1"
+                            :total-visible="5"
+                            @next="jumpPage('')"
+                            @previous="jumpPage('')"
+                            @input="onPageChange"
+                    ></v-pagination>
+                </v-container>
+            </v-col>
+        </v-row>
     </v-container>
-  </div>
+</div>
 
 
 
@@ -472,7 +470,7 @@ Repository name : 你的用户名.github.io
 
 
 </div>
-<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/js/tocbot.min.js"></script>
 <script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
 
