@@ -7,17 +7,19 @@ tags:
 -  live2d
 ---
 
+Live2D是一种应用于电子游戏的绘图渲染技术，由日本Cybernoids公司开发，通过一系列的连续图像和人物建模来生成一种类似二维图像的三维模型;画师只需要绘制一张原画，然后将身体、五官、发型、服装等2D图片放到全3D的模型模板上。
+
+<!--more-->
+
 ## 安装
 
-安装 live2d 前确保已经搭建好hexo网站
-
-[hexo-helper-live2d官方中文文档](https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md)
+[hexo-helper-live2d官方中文文档](https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md) ; 安装 live2d 前确保已经搭建好hexo网站
 
 ```js
 npm install --save hexo-helper-live2d
 ```
 
-<!--more-->
+
 
 ## 配置
 
