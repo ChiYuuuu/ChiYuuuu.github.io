@@ -1,21 +1,21 @@
 # Header
 menu:
-  首页: /
-  归档: /archives
-#rss: /atom.xml
+  Home: /
+  Archives: /archives
+rss: /atom.xml
 
 # Content
-excerpt_link: 查看更多
+excerpt_link: Read More
 fancybox: true
 
 # Sidebar
 sidebar: right
 widgets:
 - category
-#- tag
+- tag
 - tagcloud
 - archive
-#- recent_posts
+- recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -35,6 +35,3 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
-
-
-
