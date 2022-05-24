@@ -2,7 +2,6 @@
 title:  Hexo中使用live2d
 date:  2022-03-30
 categories:  Hexo
-toc: true
 tags:
 -  live2d
 ---

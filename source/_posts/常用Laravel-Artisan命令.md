@@ -8,7 +8,7 @@ tags:
 -  artisan
 ---
 
-
+Artisan是Laravel中自带的命令行工具的名称，它提供了一些对应用开发有帮助的命令；artisan是由强大的Symfony Console组件驱动的，开发者可以使用list命令查看所有可用的Artisan命令。<!--more -->
 
 ## 一、数据迁移
 
