@@ -12,15 +12,13 @@ tags:
 
 
 
-## 官方文档
-
-[wx.request](https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html)
-
-[wx.uploadFile](https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/wx.uploadFile.html)
-
-
+对小程序网络请求;请求参数,失败回调,成功回调统一处理
 
 <!--more-->
+
+## 官方文档
+
+[wx.request](https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html),		[wx.uploadFile](https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/wx.uploadFile.html)
 
 ## 创建request.js
 

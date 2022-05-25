@@ -9,11 +9,9 @@ tags:
 - fullcalendar
 
 ---
-
-> demo地址: https://github.com/ChiYuuuu/vue-fullcalendar-demo
-
+在vue中实现日历功能,并显示节气,节日.自定义点击事件,浮动弹窗
+DEMO地址: https://github.com/ChiYuuuu/vue-fullcalendar-demo
 <!--more-->
-
 ## 一、安装
 
 默认安装的插件

@@ -4,7 +4,7 @@
 
 # Site
 title: 夜雨敲窗
-subtitle: 流水啊
+subtitle:
 description: ''
 keywords:
 author: Chiyu
@@ -112,7 +112,7 @@ live2d:
   tagMode: false  # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
   debug: false  # 调试, 是否在控制台输出日志
   model:
-    use: https://imuncle.github.io/live2d/model/HyperdimensionNeptunia/vert_classic/index.json ## 模型文件
+    use: https://imuncle.github.io/live2d/model/dollsfrontline/fn57_2203/normal/model.json ## 模型文件
   display:
     position: right # 定位方向 left right top bottom
     width: 150  # 小人宽度

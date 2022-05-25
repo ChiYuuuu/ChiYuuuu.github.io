@@ -1,11 +1,13 @@
 ---
-title: 初始化一个Vue项目
+title: 创建一个全新的Vue3项目
 date:  2022-04-15
 categories:  Vue
 toc: true
-tags:
--  vue
 ---
+
+从头开始创建一个全新的Vue3项目
+
+<!--more-->
 
 ## 文档
 
@@ -13,7 +15,10 @@ tags:
 
 ## 安装
 
+[先安装node](https://nodejs.org/en/)
+
 ```sh
+npm install vue
 npm init vue@latest
 ```
 

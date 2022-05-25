@@ -3,11 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="c7ee74ed-a329-4c46-a08e-44d5eba55f3f" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChiYuuuu.github.io.7z" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Hexo中使用live2d.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Hexo中使用live2d.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2022-05-24-股票术语解释.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/composer使用指南.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/js中常用的库.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/md文档排版规范.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/md文档排版规范.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/php&amp;js代码中的命名规范.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/vue中使用fullcalendar.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/vue中使用fullcalendar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/初始化一个Vue项目.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/初始化一个Vue项目.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/如何创建一个新的Laravel项目.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/小程序request封装.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/小程序request封装.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/常用Laravel-Artisan命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/常用Laravel-Artisan命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/移动端网页开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/移动端网页开发.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +43,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -65,6 +77,10 @@
       <workItem from="1653395541160" duration="479000" />
       <workItem from="1653396033811" duration="1935000" />
       <workItem from="1653398284685" duration="4480000" />
+      <workItem from="1653447044769" duration="171000" />
+      <workItem from="1653447240283" duration="274000" />
+      <workItem from="1653447535044" duration="101000" />
+      <workItem from="1653447819073" duration="1993000" />
     </task>
     <servers />
   </component>
