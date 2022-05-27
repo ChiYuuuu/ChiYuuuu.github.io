@@ -112,13 +112,13 @@ live2d:
   tagMode: false  # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
   debug: false  # 调试, 是否在控制台输出日志
   model:
-    use: https://imuncle.github.io/live2d/model/dollsfrontline/fn57_2203/normal/model.json ## 模型文件
+    use: https://imuncle.github.io/live2d/model/dollsfrontline/mlemk1_604/normal/model.json ## 模型文件
   display:
     position: right # 定位方向 left right top bottom
-    width: 150  # 小人宽度
-    height: 300 #  小人高度
-    hOffset: -15  # 向👇偏移
-    vOffset: -15  # 像👈偏移
+    width: 200  # 小人宽度
+    height: 500 #  小人高度
+    hOffset: 50  # 向👇偏移
+    vOffset: -50  # 像👈偏移
   mobile:
     show: true  # 手机端是否显示
   react:

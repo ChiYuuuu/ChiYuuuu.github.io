@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7ee74ed-a329-4c46-a08e-44d5eba55f3f" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChiYuuuu.github.io.7z" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/2022-05-24-股票术语解释.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/composer使用指南.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/js中常用的库.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/md文档排版规范.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/md文档排版规范.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/php&amp;js代码中的命名规范.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/vue中使用fullcalendar.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/vue中使用fullcalendar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/初始化一个Vue项目.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/初始化一个Vue项目.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/如何创建一个新的Laravel项目.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/小程序request封装.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/小程序request封装.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/常用Laravel-Artisan命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/常用Laravel-Artisan命令.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/移动端网页开发.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/移动端网页开发.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +67,8 @@
       <workItem from="1653447240283" duration="274000" />
       <workItem from="1653447535044" duration="101000" />
       <workItem from="1653447819073" duration="1993000" />
+      <workItem from="1653552932042" duration="1483000" />
+      <workItem from="1653617810528" duration="2015000" />
     </task>
     <servers />
   </component>
